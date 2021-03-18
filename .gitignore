@@ -7,4 +7,4 @@ Exercise Files/**
 Exercise Files.zip
 .cache
 dist
-.txt
+*.txt
