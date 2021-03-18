@@ -1,10 +1,15 @@
 # encoding=utf-8
 import jieba
 from collections import Counter
+import re
 
 def count_words(path):
     with open(path, encoding='utf-8') as file:
-        all_words = file.read()
+        # 只保留中文、大小写字母和阿拉伯数字
+        reg = "[^0-9A-Za-z\u4e00-\u9fa5]"
+        #all_words = re.findall(r"[0-9a-zA-Z-']+", file.read())
+        all_words = re.sub(reg, '', file.read())
+        #all_words = file.read()
         all_words = jieba.cut(all_words)
         
         word_sum = 0
