@@ -8,3 +8,4 @@ Exercise Files.zip
 .cache
 dist
 *.txt
+*.pyc
