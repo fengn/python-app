@@ -18,7 +18,7 @@ def count_words(path):
             if(len(word) >= 2):
                 word_counts[word] += 1
             word_sum += 1
-        print('\nTotal Words:', word_sum)
+        print('\nTotal Words:', len(word_counts)) #2个字以上的去重后的数量
 
         print('\nTop 20 Words:')
         for word in word_counts.most_common(20):
