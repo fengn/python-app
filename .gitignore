@@ -9,3 +9,5 @@ Exercise Files.zip
 dist
 *.txt
 *.pyc
+.vscode
+.venv
