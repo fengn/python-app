@@ -11,3 +11,4 @@ dist
 *.pyc
 .vscode
 .venv
+*.bz2
