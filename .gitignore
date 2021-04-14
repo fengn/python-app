@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 .tmp
-images/**
+images
 slides/**
 Exercise Files/**
 Exercise Files.zip
@@ -12,3 +12,5 @@ dist
 .vscode
 .venv
 *.bz2
+*.zip
+my_stuff
